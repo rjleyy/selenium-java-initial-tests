@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Exceptions Tests" verbose="1">
+    <test name="TimeoutException Test">
+        <groups>
+            <run>
+                <include name = "exceptions"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.practicetestautomation.tests.exceptions.ExceptionsTest"/>
+        </classes>
+    </test>
+</suite>
